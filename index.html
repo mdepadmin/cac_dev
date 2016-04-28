@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Thunderbirds</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+</head>
+<style>
+  .col-centered{
+    float: none;
+    margin: 0 auto;
+}
+input[type="submit"] {
+  color: #000;
+  background-color: #fff;
+}
+.btn-login {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-login:focus,
+.btn-login.focus {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-login:hover {
+  color: #fff;
+  background-color: #222587;
+  border-color: transparent;
+}
+.btn-login:active,
+.btn-login.active,
+.open > .dropdown-toggle.btn-login {
+  color: #fff;
+  background-color: #191B5C;
+  border-color: #398439;
+}
+.btn-login:active:hover,
+.btn-login.active:hover,
+.open > .dropdown-toggle.btn-login:hover,
+.btn-login:active:focus,
+.btn-login.active:focus,
+.open > .dropdown-toggle.btn-login:focus,
+.btn-login:active.focus,
+.btn-login.active.focus,
+.open > .dropdown-toggle.btn-login.focus {
+  color: #fff;
+  background-color: #191B5C;
+  border-color: transparent;
+}
+.btn-login:active,
+.btn-login.active,
+.open > .dropdown-toggle.btn-login {
+  background-image: none;
+}
+.btn-login.disabled:hover,
+.btn-login[disabled]:hover,
+fieldset[disabled] .btn-login:hover,
+.btn-login.disabled:focus,
+.btn-login[disabled]:focus,
+fieldset[disabled] .btn-login:focus,
+.btn-login.disabled.focus,
+.btn-login[disabled].focus,
+fieldset[disabled] .btn-login.focus {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-login .badge {
+  color: #5cb85c;
+  background-color: #fff;
+}
+</style>  
+<body>
+    <!--<a name="about"></a>-->
+  <div class="background">
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-12 col-lg-12">
+                    <div class="intro-message">
+
+
+                        <hr class="intro-divider">
+                        <ul class="list-inline login-options">
+                            <div class="btn-group closed">
+						    <a class="btn btn-lg btn-login" data-toggle="dropdown" href="#"> CAC Login</a>
+  							<ul class="dropdown-menu">
+    							<div class="input-group col-lg-12">
+                                <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span><input class="form-control" type="password" placeholder="Enter PIN  ">
+                            	</div>
+   								<li class="divider"></li>
+    							<li>
+                             	<a href="#" class="btn btn-md btn-block btn-login">Submit</a>
+                            	</li>
+  							</ul>
+							</div>
+                            <hr class="intro-divider">
+                           <div class="btn-group closed">
+                                  <form name="userform" method="post" action="login.php">
+						    <a class="btn btn-lg btn-login" data-toggle="dropdown" href="#"><i class="fa fa-user fa-2x fa-fw"></i> Password Login</a>
+                             <ul class="dropdown-menu">
+    							<div class="input-group col-lg-12">
+                                <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span><input name="username" class="form-control" type="text" placeholder="Email address  ">
+                            	</div>
+    							<div class="input-group col-lg-12">
+                                <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span><input name="password" class="form-control" type="password" placeholder="Password  ">
+                            	</div>
+   								<li class="divider"></li>
+    							<li>
+                             	<input type="submit" class="btn btn-md btn-block btn-login" name="Submit" value="Submit">
+                            	</li>
+  							</ul>
+                                    </form>
+							</div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+   </div> <!--background end-->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
